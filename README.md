@@ -1,7 +1,7 @@
 # elastic-search-uploader
 elastic-search-uploader
 
-This threading.Thread object has an attribute "data_list". It is a list of dictionaries. User can append dictionaries to it. 
+This threading.Thread python class has an attribute "data_list". It is a list of dictionaries. User can append dictionaries to it. 
 Once its size passes bulksize, the thread will upload data_list to ElasticSearch using elasticsearch.helpers.bulk()
 
 Init Parameters:
